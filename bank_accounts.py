@@ -1,4 +1,4 @@
-# OOP design
+# Object Oriented Programming design
 class BalanceException(Exception):
     pass
 

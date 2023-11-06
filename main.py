@@ -1,4 +1,8 @@
 from bank_accounts import *
+import getpass, sys
+from unittest import TestCase
+
+
 
 Dave = BankAccount(1000, "Dave")
 Sara = BankAccount(2000, "Sara")
@@ -24,5 +28,20 @@ Blaze.getBalance()
 Blaze.deposit(100)
 Blaze.transfer(10000, Sara)
 Blaze.transfer(1000, Sara)
-#if __main__ == "__main__":
-#    main()
+""" # incomplete section
+if __name__ == "__main__":
+    BankAccounts = dict()
+    while True:
+        # This part should be replaced as API card number swipe
+        decode_card_number = input("Insert your card or press Q to exit")
+        if (decode_card_number == 'Q')
+            break
+        if decode_card_number in BankAccounts:
+            password = getpass("Insert PIN number")
+        else:
+            print("\nCard number is invalid. Try again!")
+    sys.exit()
+"""
+
+        
+
